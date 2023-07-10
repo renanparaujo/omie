@@ -1,0 +1,21 @@
+{
+    "name": "renan/omie",
+    "description": "omie",
+    "authors": [
+        {
+            "name": "renanweb",
+            "email": "renan.comp@gmail.com"
+        }
+    ],
+    "require": {
+        "facebook/graph-sdk": "^5.1"
+    },
+    "autoload": {
+        "files": [
+
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}

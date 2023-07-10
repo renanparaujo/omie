@@ -1,0 +1,731 @@
+#omie-intercom {
+    display: none
+}
+
+body {
+    background-color: #001e27
+}
+
+nav.nav-mobile {
+    position: relative
+}
+
+nav.nav-mobile .img-arrow {
+    filter: invert(1);
+    transform: rotate(180deg)
+}
+
+.live p,.live strong,#modal-form p,#modal-form strong {
+    font-size: .875rem
+}
+
+.box-iode {
+    padding: 0 1.5rem;
+    position: relative
+}
+
+.box-iode .content {
+    display: flex;
+    flex-direction: column
+}
+
+.banner .box-iode {
+    background: #000d16
+}
+
+.banner .box-iode img:not(.img-cta) {
+    width: 75%
+}
+
+.banner .cta {
+    margin: 0 auto;
+    width: 100%
+}
+
+.img-cta {
+    transition: .2s
+}
+
+.img-cta:hover {
+    transform: scale(1.1)
+}
+
+.sec-iode h2 {
+    font-size: 1rem;
+    font-weight: 400
+}
+
+.sec-iode .box-iode {
+    background: #00475d;
+    padding: 1.5rem 1.5rem;
+    z-index: 1
+}
+
+.sec-iode .ajuda {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem
+}
+
+.card-indice h3 {
+    font-size: 1.25rem;
+    font-weight: 700
+}
+
+.card-pme .principal,.card-pme .secundario,.card-pme .estatisticas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.card-pme div span:first-child {
+    color: #fff;
+    line-height: 2.5rem
+}
+
+.card-pme div span:last-child {
+    text-align: right
+}
+
+.card-pme .principal span,.card-pme .secundario span {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600
+}
+
+.card-pme .principal span:last-child {
+    color: #00e2f4;
+    font-size: 2rem;
+    font-weight: 700
+}
+
+.card-pme .secundario span:last-child {
+    color: #00e2f4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .8
+}
+
+.card-pme .estatisticas span:first-child {
+    font-weight: 600;
+    color: #fff
+}
+
+.card-pme .estatisticas span:last-child {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    height: -webkit-fill-available
+}
+
+.card-pme .estatisticas span img {
+    width: 17px !important
+}
+
+.card-pme span.neg {
+    color: #ff6565
+}
+
+.card-pme span.pos {
+    color: #69f8cd
+}
+
+.box-tabs .nav-tabs {
+    border-bottom: none
+}
+
+.box-tabs .nav-tabs .nav-link {
+    color: #00e2f4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .5
+}
+
+.box-tabs .nav-tabs .nav-link.active {
+    background-color: #001e27;
+    border: 2px solid #00e2f4;
+    opacity: 1
+}
+
+.box-tabs .tab-content img {
+    margin: 0 auto;
+    width: 100%
+}
+
+.owl-carousel.owl-espec .owl-nav {
+    position: absolute;
+    width: 90%;
+    top: 0rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    z-index: 1
+}
+
+.owl-carousel.owl-espec .owl-nav button.disabled {
+    opacity: 0;
+    cursor: unset
+}
+
+.owl-carousel.owl-espec .owl-nav span {
+    color: #00e2f4;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 200
+}
+
+.owl-carousel.owl-espec .owl-stage-outer {
+    position: relative;
+    z-index: 9
+}
+
+.owl-carousel.owl-espec .owl-item .h-video img {
+    width: auto
+}
+
+.cards-seg {
+    position: relative
+}
+
+.cards-seg .card-segmento {
+    display: block;
+    max-height: 380px;
+    transform: translate3d(150px, 0, 0)
+}
+
+.cards-seg .card-segmento header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem
+}
+
+.cards-seg .card-segmento header img {
+    height: 48px;
+    width: 48px
+}
+
+.cards-seg .card-segmento h3 {
+    font-size: 1.25rem;
+    font-weight: 700
+}
+
+.cards-seg .card-segmento .indice {
+    background: #007a9c;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    align-items: center;
+    padding: .5rem 1.5rem;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.cards-seg .card-segmento .indice img {
+    width: 24px;
+    height: 24px
+}
+
+.cards-seg .card-segmento .indice h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0
+}
+
+.cards-seg .card-segmento.ativo {
+    animation: slideCards .5s forwards
+}
+
+.cards-seg .card-segmento.ativo.esquerda {
+    animation: slideCardsLeft .5s forwards
+}
+
+.cards-seg .card-segmento:not(.ativo) {
+    display: none
+}
+
+.cards-seg .nav-seg {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: absolute;
+    top: 1rem;
+    width: 100%
+}
+
+.cards-seg .nav-seg img {
+    filter: invert(1);
+    cursor: pointer
+}
+
+@keyframes slideCards {
+    from {
+        opacity: 0;
+        transform: translate3d(100px, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideCardsLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100px, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.carousel-control-next,.carousel-control-prev {
+    bottom: unset
+}
+
+.owl-carousel.owl-espec .owl-dots {
+    margin-top: 1rem
+}
+
+.owl-carousel.owl-espec .owl-nav {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 104%;
+    left: -2%
+}
+
+.owl-carousel.owl-espec .item {
+    padding: 0 3rem
+}
+
+.box-iode .form-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 0;
+    border-bottom: 0
+}
+
+.box-iode .form-select select {
+    border-bottom: 1px solid rgba(0,0,0,0);
+    color: #fff;
+    font-weight: 700;
+    width: 70%
+}
+
+.box-iode .form-select select:hover {
+    border-bottom: 1px solid #00e2f4;
+    cursor: pointer
+}
+
+.box-iode .form-select img {
+    border: 1px solid rgba(0,0,0,0);
+    transition: .1s
+}
+
+.box-iode .form-select img:hover {
+    border-bottom: 1px solid #00e2f4
+}
+
+section:not(.sec-iode) h2 {
+    font-size: 2rem;
+    font-weight: 700
+}
+
+section:not(.sec-iode) h2 {
+    margin-top: 4rem
+}
+
+section:not(.sec-iode) p.subt,section:not(.sec-iode) p.subt strong {
+    font-size: 1.5rem;
+    line-height: 1.3
+}
+
+.bg-azulfundo {
+    background-color: #d9f9fd;
+}
+
+.bg-azulcard {
+    background-color: #9FF1F7;
+}
+
+.sec-ajuda .card-plano,.sec-espec .card-plano {
+    background: #fff;
+    padding: 1.5rem
+}
+
+.sec-ajuda .card-plano h3,.sec-espec .card-plano h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+
+.sec-ajuda .owl-dots,.sec-espec .owl-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.sec-ajuda .owl-dots button,.sec-espec .owl-dots button {
+    background: #001e27;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: .2s
+}
+
+.sec-ajuda .owl-dots button:not(.active),.sec-espec .owl-dots button:not(.active) {
+    opacity: .5;
+    width: 16px;
+    height: 16px;
+    background-color: #00e2f4
+}
+
+.div-midias .midia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem 0
+}
+
+.div-midias .box-iode {
+    padding: 0 3rem
+}
+
+.div-midias a {
+    font-weight: 700
+}
+
+.div-midias img {
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.div-midias .m-principal {
+    background-image: url(/src/img/banner-omiemidia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    min-height: 60vh
+}
+
+.modal-content {
+    background-color: #eef8fa
+}
+
+.modal-content .btn-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 99
+}
+
+.owl-indice .owl-item .img-cnae {
+    cursor: pointer;
+    height: 20px;
+    width: 20px
+}
+
+.h-video {
+    position: relative;
+    display: flex
+}
+
+.h-video .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,30,39,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: .3s
+}
+
+@media(min-width: 768px) {
+    .owl-carousel.owl-espec .item {
+        padding:0 1.5rem
+    }
+
+    .owl-carousel.owl-espec .owl-nav {
+        padding: 0 0
+    }
+
+    .banner .box-iode .cta {
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 0 0
+    }
+
+    footer .logo-omie {
+        width: 20%
+    }
+}
+
+@media(min-width: 992px) {
+    .h-video .overlay {
+        display:none
+    }
+
+    .h-video:hover .overlay {
+        display: flex
+    }
+
+    .banner .box-iode {
+        background: url(/src/img/banner-desk.png);
+        padding: 3rem 3rem;
+        width: 100%
+    }
+
+    .banner .box-iode .content {
+        width: 50%
+    }
+
+    .sec-iode .box-iode {
+        padding: 2.25rem 2.25rem
+    }
+
+    .col-indices {
+        display: grid;
+        gap: 16px;
+        grid-template: "sub-1 sub-2"/60% 40%
+    }
+
+    .col-indices .col-sub-indices {
+        display: grid
+    }
+
+    .col-indices .col-sub-indices.sub-1 {
+        grid-template: "b-indice      b-indice  " minmax(220px, 240px) "b-indice      b-indice  " minmax(220px, 240px) "b-pmes        b-segmento" minmax(230px, 255px) "b-comparativo b-segmento" minmax(175px, 180px) "b-comparativo b-mensal  " minmax(175px, 180px)/50% 50%
+    }
+
+    .col-indices .col-sub-indices.sub-2 {
+        grid-template: "b-destaque" 1.6fr "b-diferenca" 1.8fr "b-trimestral" 2.8fr;
+        padding-right: 1rem
+    }
+
+    .col-indices .b-indice {
+        grid-area: b-indice
+    }
+
+    .col-indices .b-pmes {
+        grid-area: b-pmes
+    }
+
+    .col-indices .b-comparativo {
+        grid-area: b-comparativo
+    }
+
+    .col-indices .b-segmento {
+        grid-area: b-segmento
+    }
+
+    .col-indices .b-mensal {
+        grid-area: b-mensal
+    }
+
+    .col-indices .b-destaque {
+        grid-area: b-destaque
+    }
+
+    .col-indices .b-destaque p,.col-indices .b-destaque span {
+        font-size: 20px
+    }
+
+    .col-indices .b-diferenca {
+        grid-area: b-diferenca
+    }
+
+    .col-indices .b-trimestral {
+        grid-area: b-trimestral
+    }
+
+    .card-indice h3 {
+        font-size: 1rem
+    }
+
+    .card-indice p {
+        font-size: .875rem
+    }
+
+    .card-indice img {
+        margin-bottom: 2rem
+    }
+
+    .card-pme div span:first-child {
+        line-height: 2rem
+    }
+
+    .card-pme .principal span,.card-pme .secundario span {
+        font-size: 1rem
+    }
+
+    .card-pme .principal span:last-child {
+        font-size: 1.5rem
+    }
+
+    .card-pme .secundario span:last-child {
+        font-size: 1.25rem
+    }
+
+    .card-pme .estatisticas span img {
+        width: 12px !important
+    }
+
+    .cards-seg .card-segmento .secundario .estatisticas {
+        margin-bottom: .5rem
+    }
+
+    .cards-seg .card-segmento header img {
+        height: 40px;
+        width: 40px
+    }
+
+    .sec-ajuda .cards-plano {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .sec-ajuda .cards-plano .card-plano {
+        width: 24%
+    }
+
+    .sec-ajuda .cards-plano .card-plano h3 {
+        font-size: 1.375rem
+    }
+
+    .div-midias {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0px
+    }
+
+    .div-midias .m-principal {
+        justify-content: center
+    }
+
+    .div-midias .midia:nth-child(1) {
+        grid-area: 1/1/6/3
+    }
+
+    .div-midias .midia:nth-child(2) {
+        grid-area: 1/3/3/5
+    }
+
+    .div-midias .midia:nth-child(3) {
+        grid-area: 3/3/5/5
+    }
+
+    .div-midias .midia:nth-child(4) {
+        background: #fff;
+        grid-area: 1/5/3/7
+    }
+
+    .div-midias .midia:nth-child(5) {
+        background: #d9f9fd !important;
+        grid-area: 3/5/5/7
+    }
+
+    .div-midias .midia:not(:first-child) .box-iode {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between
+    }
+
+    .box-tabs .nav-tabs .nav-link {
+        font-size: 1rem
+    }
+
+    .owl-indice .owl-item img {
+        width: 60%
+    }
+
+    .sec-iode .box-iode.b-trimestral {
+        background-image: url(/src/img/banner-indicetrimestral.png);
+        background-size: cover
+    }
+
+    .sec-iode .box-iode.b-trimestral h3 {
+        font-size: 1.25rem;
+        font-weight: 700
+    }
+
+    .sec-iode .box-iode.b-trimestral img {
+        width: 60%
+    }
+
+    .cards-seg .nav-seg {
+        padding: 0 0rem
+    }
+
+    .cards-seg .card-segmento .indice {
+        padding: .5rem .75rem
+    }
+
+    footer .logo-omie {
+        width: 100%
+    }
+
+    footer strong {
+        font-size: .875rem;
+        font-weight: 400
+    }
+
+    footer a img {
+        height: 24px;
+        width: 24px
+    }
+}
+
+@media(min-width: 1200px) {
+    .cards-seg .nav-seg {
+        padding:0 1rem
+    }
+}
+
+@media(min-width: 1440px) {
+    .sec-iode .box-iode {
+        max-height:550px;
+        padding: 2rem 2rem
+    }
+
+    .col-indices {
+        grid-template: "sub-1 sub-2"/60% 40%
+    }
+
+    .col-indices .col-sub-indices.sub-2 {
+        grid-template: "b-destaque" .5fr "b-diferenca" .8fr "b-trimestral" 1.2fr
+    }
+}
+
+@media(min-width: 1920px) {
+    .sec-economia {
+        background-position:20rem 0
+    }
+
+    .col-indices .col-sub-indices.sub-1 {
+        grid-template: "b-indice b-indice " minmax(220px, 240px) "b-indice b-indice " minmax(220px, 240px) "b-pmes b-segmento" minmax(230px, 255px) "b-comparativo b-segmento" minmax(175px, 225px) "b-comparativo b-mensal " minmax(170px, 175px)/50% 50%
+    }
+
+    .col-indices {
+        grid-template: "sub-1 sub-2"/63% 37%
+    }
+
+    .col-indices .col-sub-indices.sub-2 {
+        grid-template: "b-destaque" .75fr "b-diferenca" .8fr "b-trimestral" 1.4fr
+    }
+}
