@@ -635,7 +635,6 @@ section:not(.sec-iode) p.subt,section:not(.sec-iode) p.subt strong {
     }
 
     .div-midias .midia:nth-child(5) {
-        background: #d9f9fd !important;
         grid-area: 3/5/5/7
     }
 

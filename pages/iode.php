@@ -3,7 +3,7 @@
         <div class="header-live d-lg-flex justify-content-center align-items-center text-center">
             <img src="/src/img/ico-live.svg" class="img-fluid me-2">
             <p class="mb-0 d-flex align-items-center flex-column flex-lg-row">
-                <strong class="pe-2">LIVE – Fala, Economia!</strong> O que o cenário econômico tem a dizer para o empreendedor. <a href="https://www.youtube.com/watch?v=srrlLrEfwuE" target="_blank" rel="noopener noreferrer" class="ms-lg-2 mt-3 mt-lg-0">
+                <strong class="pe-2">LIVE – Fala, Economia!</strong> O que o cenário econômico tem a dizer para o empreendedor. <a href="#" class="ms-lg-2 mt-3 mt-lg-0">
                     <strong class="d-flex align-items-center justify-content-center">
                         CLIQUE E SE INSCREVA →
                         <!-- TO DO: IMAGEM DA SETA -->
@@ -321,12 +321,13 @@
                                 <h2 class="text-white mb-4 mt-0">Omie na Mídia</h2>
                                 <p><strong class="text-white">O Índice Omie de Desempenho Econômico das PMEs tornou-se referência em análise econômica das Pequenas e Médias Empresas.</strong></p>
                                 <p class="text-white mb-0">Confira os canais que divulgaram o índice e o que estão falando na mídia:</p>
+                                <!-- TO DO: AJUSTAR DIV -->
                             </div>
                         </div>
                         <div class="midia bg-azulcard">
                             <div class="box-iode">
                                 <img data-src="/src/img/logo-exame.png" class="img-fluid pb-5 pb-xxl-0 lozad">
-                                <a href="" class="d-flex justify-content-between align-items-end">
+                                <a href="#" class="d-flex justify-content-between align-items-end">
                                     Pequenas e médias empresas brasileiras crescem 1,9% em 2022. →
                                     <!-- TO DO: IMAGEM DA SETA -->
                                 </a>
@@ -335,7 +336,7 @@
                         <div class="midia bg-white">
                             <div class="box-iode">
                                 <img data-src="/src/img/logo-globo.png" class="img-fluid pb-5 pb-xxl-0 lozad">
-                                <a href="" class="d-flex justify-content-between align-items-end"> 
+                                <a href="#" class="d-flex justify-content-between align-items-end"> 
                                     Pequenos negócios faturam 1,9% mais em 2022, e enfrentam desafios para ampliar ganhos este ano. →
                                     <!-- TO DO: IMAGEM DA SETA -->
                                 </a>
@@ -344,7 +345,7 @@
                         <div class="midia bg-white">
                             <div class="box-iode">
                                 <img data-src="/src/img/logo-exame.png" class="img-fluid pb-5 pb-xxl-0 lozad">
-                                <a href="" class="d-flex justify-content-between align-items-end">
+                                <a href="#" class="d-flex justify-content-between align-items-end">
                                     O que esperar das pequenas e médias empresas brasileiras em 2023? →
                                     <!-- TO DO: IMAGEM DA SETA -->
                                 </a>
@@ -353,7 +354,7 @@
                         <div class="midia bg-azulcard">
                             <div class="box-iode">
                                 <img data-src="/src/img/logo-valorinveste.png" class="img-fluid pb-5 pb-xxl-0 lozad">
-                                <a href="" class="d-flex justify-content-between align-items-end">
+                                <a href="#" class="d-flex justify-content-between align-items-end">
                                     Veja em quais setores as pequenas empresas fecharam 2022 com mais dinheiro em caixa. →
                                     <!-- TO DO: IMAGEM DA SETA -->
                                 </a>
